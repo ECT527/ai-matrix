@@ -253,6 +253,40 @@ body {
   text-align: center;
 }
 
+.use-case-section {
+  margin-top: 28px;
+  text-align: left;
+}
+
+.use-case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.use-case-card {
+  background: #f9fbff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.use-case-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.use-case-card ul {
+  margin: 0 0 0 18px;
+  color: var(--muted-foreground);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.use-case-card li + li {
+  margin-top: 4px;
+}
+
 .section-title {
   font-size: 24px;
   font-weight: 600;
