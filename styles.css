@@ -235,41 +235,22 @@ body {
 }
 
 .platform-category {
-  display: inline-flex;
+  display: block;
   align-items: center;
   justify-content: center;
   margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 7px 12px;
   border-radius: 999px;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.02em;
-  border: 1px solid transparent;
+  border: 1px solid #0f2747;
   width: fit-content;
-}
-
-.platform-category--m365 {
-  background: #e8f3ff;
-  color: #005a9e;
-  border-color: #c7e0f4;
-}
-
-.platform-category--builder {
-  background: #e8faf4;
-  color: #0f766e;
-  border-color: #bde5d8;
-}
-
-.platform-category--studio {
-  background: #fff4e5;
-  color: #b45309;
-  border-color: #f5d0a5;
-}
-
-.platform-category--foundry {
-  background: #f3e8ff;
-  color: #7c3aed;
-  border-color: #d8b4fe;
+  background: #0f2747;
+  color: #ffffff;
+  text-align: center;
 }
 
 .section-title {
