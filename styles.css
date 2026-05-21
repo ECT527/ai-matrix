@@ -293,14 +293,16 @@ body {
 
 .use-case-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 .use-case-card {
   min-height: 100%;
   text-align: center;
-  padding: 20px 16px;
+  padding: 20px 18px;
 }
 
 .use-case-card .platform-description {
@@ -319,6 +321,13 @@ body {
 
 .use-case-card li + li {
   margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .use-case-grid {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
 }
 
 .section-title {
