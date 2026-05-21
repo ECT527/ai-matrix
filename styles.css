@@ -274,29 +274,6 @@ body {
   scroll-margin-top: 20px;
 }
 
-.scroll-cta {
-  margin-top: auto;
-  padding-top: 20px;
-}
-
-.scroll-cta a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 240px;
-  padding: 14px 18px;
-  border-radius: 999px;
-  background: #0f2747;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 700;
-  box-shadow: 0 8px 20px rgba(15, 39, 71, 0.2);
-}
-
-.scroll-cta a:hover {
-  background: #0b1d35;
-}
-
 .section-scroll {
   margin-top: auto;
   padding-top: 20px;
