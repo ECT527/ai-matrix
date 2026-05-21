@@ -298,19 +298,20 @@ body {
 }
 
 .use-case-card {
-  background: #f9fbff;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius);
-  padding: 16px;
+  min-height: 100%;
+  text-align: center;
+  padding: 20px 16px;
 }
 
-.use-case-card h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
+.use-case-card .platform-description {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
 }
 
 .use-case-card ul {
-  margin: 0 0 0 18px;
+  margin: 0;
+  padding-left: 18px;
+  text-align: left;
   color: var(--muted-foreground);
   font-size: 13px;
   line-height: 1.5;
