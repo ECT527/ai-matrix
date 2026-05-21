@@ -38,7 +38,7 @@ body {
   background-attachment: fixed;
   color: var(--foreground);
   min-height: 100vh;
-  scroll-snap-type: y proximity;
+  scroll-snap-type: y mandatory;
 }
 
 .container {
@@ -109,6 +109,12 @@ body {
 
 .card-content {
   padding: 32px;
+}
+
+.card-content--flow {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 130px);
 }
 
 .card-content--centered {
@@ -289,6 +295,30 @@ body {
 
 .scroll-cta a:hover {
   background: #0b1d35;
+}
+
+.section-scroll {
+  margin-top: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.section-scroll-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 260px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: var(--primary-xlight);
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid var(--primary-light);
+}
+
+.section-scroll-link:hover {
+  background: #dceefb;
 }
 
 .use-case-grid {

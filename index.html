@@ -18,8 +18,8 @@
     </header>
 
     <main class="container main-container">
-      <section class="card">
-        <div class="card-content card-content--centered">
+      <section class="card" id="overview">
+        <div class="card-content card-content--centered card-content--flow">
           <div class="welcome-icon-wrapper">
             <img src="images/abercrombie-logo.jpg" alt="Abercrombie &amp; Fitch" class="anf-logo" />
           </div>
@@ -82,13 +82,13 @@
             <a href="https://microsoft.github.io/AgentPlatformAdvisor/" target="_blank" rel="noopener noreferrer">Take the Agent Platform Advisor quiz</a>
           </p>
           <div class="scroll-cta">
-            <a href="#example-use-cases">Example use cases ↓</a>
+            <a href="#example-use-cases">Next: Example use cases ↓</a>
           </div>
         </div>
       </section>
 
       <section class="card" id="example-use-cases">
-        <div class="card-content">
+        <div class="card-content card-content--flow">
           <h2 class="section-title">Example use cases</h2>
           <div class="use-case-grid">
             <div class="platform-preview use-case-card">
@@ -148,11 +148,14 @@
               </ul>
             </div>
           </div>
+          <div class="section-scroll">
+            <a class="section-scroll-link" href="#platform-summary">Next: Platform summary ↓</a>
+          </div>
         </div>
       </section>
 
-      <section class="card">
-        <div class="card-content">
+      <section class="card" id="platform-summary">
+        <div class="card-content card-content--flow">
           <h2 class="section-title">Platform summary</h2>
           <div class="table-wrap">
             <table>
@@ -212,11 +215,14 @@
               </tbody>
             </table>
           </div>
+          <div class="section-scroll">
+            <a class="section-scroll-link" href="#comparison-details">Next: Platform comparison details ↓</a>
+          </div>
         </div>
       </section>
 
-      <section class="card deploy-agent-card">
-        <div class="card-content">
+      <section class="card deploy-agent-card" id="comparison-details">
+        <div class="card-content card-content--flow">
           <h2 class="section-title">Platform comparison details</h2>
           <div class="deploy-table-wrap">
             <table class="deploy-table">
@@ -309,11 +315,14 @@
             </table>
           </div>
           <div class="deploy-footnote">Platform comparison for agent deployment decisions &middot; Prepared for Abercrombie</div>
+          <div class="section-scroll">
+            <a class="section-scroll-link" href="#operating-model">Next: Recommended operating model ↓</a>
+          </div>
         </div>
       </section>
 
-      <section class="card operating-model">
-        <div class="card-content">
+      <section class="card operating-model" id="operating-model">
+        <div class="card-content card-content--flow">
           <h2 class="section-title">Recommended operating model</h2>
           <p class="operating-model-intro">Use a single intake process and route requests through these four tracks:</p>
           <ol class="operating-model-list">
@@ -322,11 +331,14 @@
             <li><span class="model-step">3</span><span class="reasoning-text"><strong>Standardize workflow automation</strong> in Copilot Studio.</span></li>
             <li><span class="model-step">4</span><span class="reasoning-text"><strong>Reserve Foundry</strong> for strategic custom and regulated workloads.</span></li>
           </ol>
+          <div class="section-scroll">
+            <a class="section-scroll-link" href="#ai-governance">Next: AI Governance ↓</a>
+          </div>
         </div>
       </section>
 
-      <section class="card">
-        <div class="card-content">
+      <section class="card" id="ai-governance">
+        <div class="card-content card-content--flow">
           <h2 class="section-title">AI Governance | Microsoft Agent 365</h2>
           <figure class="agent365-figure">
             <a href="https://learn.microsoft.com/en-us/microsoft-agent-365/overview" target="_blank" rel="noopener noreferrer">
