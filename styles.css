@@ -488,23 +488,6 @@ body {
   overflow-x: auto;
 }
 
-.quiz-prompt {
-  margin: 16px 0 0;
-  text-align: center;
-  font-size: 14px;
-  color: var(--muted-foreground);
-}
-
-.quiz-prompt a {
-  color: var(--primary);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.quiz-prompt a:hover {
-  text-decoration: underline;
-}
-
 .deploy-agent-card {
   /* inherits standard .card styles */
 }
